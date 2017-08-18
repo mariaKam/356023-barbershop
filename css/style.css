@@ -1,0 +1,90 @@
+
+body {
+    font-size: 14px;
+    font-family: "PTSans";
+    color: black;
+    font-weight: bold;
+    line-height: 1.714;
+    text-transform: uppercase;
+}
+
+/*------"пропишите для заголовков двух типов текстовые стили c помощью селектора по классу"---*/
+/*---по таким классам чтоли?---*/
+
+.big-title {
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.medium-title {
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+/*--------это на будущее-------*/
+
+/*.btn {*/
+/*color: rgb(255, 255, 255);*/
+/*text-align: center;*/
+/*line-height: 18px;*/
+/*}*/
+
+/*p a{*/
+/*text-decoration: underline;*/
+/*}*/
+
+/*!*-------------*!*/
+
+/*.main-nav a {*/
+/*font-size: 16px;*/
+/*color: white;*/
+/*line-height: 1.25;*/
+/*text-align: center;*/
+/*}*/
+
+/*!*-------------*!*/
+
+/*.feature-item{*/
+/*color: rgb(247, 244, 241);*/
+/*text-align: center;*/
+/*}*/
+
+/*!*------------*!*/
+
+/*time {*/
+/*text-transform: none;*/
+/*}*/
+
+/*!*----------*!*/
+
+/*.appointment input{*/
+/*text-transform: none;*/
+/*}*/
+
+/*.appointment ::placeholder{*/
+/*color: rgb(171, 169, 167);*/
+/*}*/
+
+/*!*-------------*!*/
+
+/*.main-footer{*/
+/*color: white;*/
+/*}*/
+
+/*!*----*!*/
+
+/*a.disabled, .product-vendor-code{*/
+/*color: rgb(171, 169, 167);*/
+/*}*/
+
+/*.filter-options-list li{*/
+/*line-height: 1.286;*/
+/*}*/
+
+/*.Suavecito, �������� ��������, ������� ���, ���������� {*/
+/*line-height: 1.286;*/
+/*}*/
+
+
+
+

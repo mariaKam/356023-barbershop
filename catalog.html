@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Барбершоп</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
     </head>
     <body>
 
         <header class="main-header">
             <nav class="main-nav">
                 <a class="main-header-logo" href="index.html">
-                    <img src="img/placeholder.png" width="111" height="24" alt="Barbershop Borodinski"/>
+                    <img src="img/logo.svg" width="111" height="24" alt="Barbershop Borodinski"/>
                 </a>
                 <ul class="site-nav">
                     <li><a href="info.html">Информация</a></li>
@@ -25,11 +26,11 @@
         </header>
         <main class="container">
             <header class="page-header">
-                <h1 class="page-title">Средства для ухода</h1>
+                <h1 class="page-title big-title">Средства для ухода</h1>
                 <ul class="breadcrumbs">
                     <li><a href="index.html">Главная</a></li>
                     <li><a href="catalog.html">Магазин</a></li>
-                    <li class="breadcrumbs-current-page">Средства для ухода</li>
+                    <li class="breadcrumbs-current-page"><a class="disabled">Средства для ухода</a></li>
                 </ul>
             </header>
 
@@ -37,7 +38,7 @@
                 <h2 class="visually-hidden">Фильтр товаров</h2>
                 <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                     <fieldset>
-                        <legend>Производители:</legend>
+                        <legend class="medium-title">Производители:</legend>
                         <ul class="filter-options-list">
                             <li>
                                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
@@ -72,7 +73,7 @@
                         </ul>
                     </fieldset>
                     <fieldset>
-                        <legend>Группы товаров:</legend>
+                        <legend class="medium-title">Группы товаров:</legend>
                         <ul class="filter-options-list">
                             <li>
                                 <input class="visually-hidden filter-input filter-input-radio" type="radio"
@@ -108,7 +109,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/travelkit-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -124,7 +125,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/conditioner-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -140,7 +141,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/gel-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -156,7 +157,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/clay-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -172,7 +173,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/gel2-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -188,7 +189,7 @@
                         </h3>
                         <p>
                             <a href="catalog-item.html">
-                                <img src="img/placeholder.png" width="220" height="165"
+                                <img src="img/shaving-catalog.jpg" width="220" height="165"
                                      alt="Набор для путешествий 'Baxter of California'"/>
                             </a>
                         </p>
@@ -229,7 +230,7 @@
         </footer>
 
         <section class="modal modal-login">
-            <h2>Личный кабинет</h2>
+            <h2 class="big-title">Личный кабинет</h2>
             <p>Введите свой логин и пароль</p>
             <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
                 <p>

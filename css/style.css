@@ -1,22 +1,18 @@
 
 body {
     font-size: 14px;
-    font-family: "PTSans";
+    line-height: 1.714;
     color: black;
     font-weight: bold;
-    line-height: 1.714;
-    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
 }
 
-/*------"пропишите для заголовков двух типов текстовые стили c помощью селектора по классу"---*/
-/*---по таким классам чтоли?---*/
-
-.big-title {
+.page-title, .section-title-big, .feature-title {
     font-size: 30px;
     line-height: 1.4;
 }
 
-.medium-title {
+.section-title-smaller, .fieldset-title, .list-title{
     font-size: 24px;
     line-height: 1.25;
 }

@@ -3,9 +3,12 @@
     <head>
         <meta charset="utf-8">
         <title>HTML Academy: Барбершоп</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic"
+              rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/normalize.css"/>
         <link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
-    <body>
+    <body class="inner-page">
 
         <header class="main-header">
             <nav class="main-nav">
@@ -37,7 +40,8 @@
             <p class="decoration-title">Истинно мужская классика</p>
 
             <section class="care-products">
-                <h2 class="section-title section-title-smaller care-products-title">Мы используем только лучшие средства:</h2>
+                <h2 class="section-title section-title-smaller care-products-title">Мы используем только лучшие
+                    средства:</h2>
                 <ul class="care-products-list">
                     <li> Baxter of California</li>
                     <li>Mr Natty</li>
@@ -85,9 +89,9 @@
             <div class="footer-social">
                 <b>Давайте дружить!</b>
                 <ul>
-                    <li><a class="social-vk" href="#">Вконтакте</a></li>
-                    <li><a class="social-fb" href="#">Фейсбук</a></li>
-                    <li><a class="social-insta" href="#">Инстаграм</a></li>
+                    <li><a class="social-btn social-vk" href="#">Вконтакте</a></li>
+                    <li><a class="social-btn social-fb" href="#">Фейсбук</a></li>
+                    <li><a class="social-btn social-insta" href="#">Инстаграм</a></li>
                 </ul>
             </div>
             <p class="footer-copyright">
@@ -106,7 +110,8 @@
                 </p>
                 <p>
                     <label class="visually-hidden" for="user-password">Пароль</label>
-                    <input class="login-icon-password" type="password" id="user-password" name="password" placeholder="Пароль">
+                    <input class="login-icon-password" type="password" id="user-password" name="password"
+                           placeholder="Пароль">
                 </p>
                 <p class="login-password-info">
                     <label class="login-checkbox">
@@ -116,7 +121,7 @@
                     </label>
                     <a class="restore" href="#">Я забыл пароль!</a>
                 </p>
-                <button class="button" type="submit">Войти</button>
+                <button class="btn" type="submit">Войти</button>
             </form>
             <button class="modal-close" type="button">Закрыть</button>
         </section>
